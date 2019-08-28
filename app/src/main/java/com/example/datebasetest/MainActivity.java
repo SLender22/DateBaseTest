@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 values.put("name","yanchengxu");
                 values.put("author","Dan Brown");
                 values.put("pages",454);
-                values.put("price",16.96);
+                values.put("price",16.97);
                 db.insert("book",null,values);
                 values.clear();
             }
